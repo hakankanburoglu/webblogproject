@@ -1,0 +1,39 @@
+.home-logo {
+    cursor: pointer;
+}
+
+.post-author {
+    font-weight: bold;
+}
+
+.post-info {
+    font-size: 10pt;
+    color: #797979;
+}
+
+.post-reactions {
+    display: flex;
+    vertical-align: center;
+}
+
+.post-reactions-container {
+    display: flex;
+    vertical-align: center;
+    cursor: pointer;
+}
+
+.like-icon {
+    background-image: url(img/heart-off.png);
+    background-size: cover;
+    cursor: pointer;
+    width: 22px;
+    height: 20px;
+}
+
+.like-icon:hover {
+    background-image: url(img/heart-on.png);
+}
+
+.like-count {
+    margin-left: 10px;
+}

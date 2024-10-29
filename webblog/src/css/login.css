@@ -1,0 +1,74 @@
+input[name="username"], input[name="password"] {
+    margin: 5px 10px;
+    padding: 10px;
+    width: 240px;
+    background-color: transparent;
+    border: 1px solid #14d08a;
+    border-radius: 5px;
+    color: #fff;
+}
+
+input[name="username"]:checked, input[name="password"]:checked {
+    border: 1px solid #14d08a;
+    color: #fff;
+}
+
+button {
+    margin: 15px 30px;
+    padding: 10px 125px;
+    background-color: transparent;
+    font-size: 14pt;
+    border: 1px solid #14d08a;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #12bc97;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #14d08a, #1bab95);
+    color: #000;
+}
+
+.login-logo {
+    margin-top: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login-container {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container-row {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-icon {
+    width: 30px;
+    height: 35px;
+}
+
+.sign-up-text {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login-error-container {
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 8px 130px;
+    background-color: #261919;
+    text-align: center;
+    border: 1px solid #8d3838;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    visibility: hidden;
+}
