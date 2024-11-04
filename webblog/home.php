@@ -15,7 +15,7 @@
     </head>
     <body>
         <header>
-            <img class="home-logo" src="src/img/logo2.png" width="150" alt="WebBlog">
+            <a href="login.php"><img class="home-logo" src="src/img/logo2.png" width="150" alt="WebBlog"></a>
         </header>
         <?php
         $conn = new mysqli("localhost", "root", "", "webblogdb");
